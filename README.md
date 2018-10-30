@@ -39,5 +39,8 @@ Steps for pinout (Only for sensor that I'm currently holding):
 ![bboard1](https://user-images.githubusercontent.com/42980862/47366591-0451f880-d6ac-11e8-9067-e740c0f581fb.PNG)
 ![bboard2](https://user-images.githubusercontent.com/42980862/47366599-074ce900-d6ac-11e8-8676-103b052c9223.PNG)
 
-#WEEK9
+# WEEK9
+
 Created pcb design as well as schema and exported generated Gerber file to Prototype lab
+![schematic](https://user-images.githubusercontent.com/42980862/47753396-c5084680-dc6d-11e8-9605-e20ed6f39082.PNG)
+![pcb](https://user-images.githubusercontent.com/42980862/47753398-c8033700-dc6d-11e8-9144-2cbe62a0a0d7.PNG)
