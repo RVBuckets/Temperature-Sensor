@@ -55,18 +55,18 @@ Modified the invoice of purchase
 
 # WEEK4
 
-Designed budget and uploaded on github https://github.com/RVBuckets/Temperature-Sensor/blob/master/Budget.xlsx
+Designed budget and uploaded on github [Budget.xlsx](https://github.com/RVBuckets/Temperature-Sensor/files/2532209/Budget.xlsx)
 
 
 # WEEK3
 
-Created schedule and documented it on github https://github.com/RVBuckets/Temperature-Sensor/blob/master/Schedule.mpp
+Created schedule and documented it on github 
 
 
 
 # WEEK2
 Proposal Submission 
-[ProposalContentStudent.xlsx](https://github.com/RVBuckets/Temperature-Sensor/files/2532172/ProposalContentStudent.xlsx)
+[ProposalContentStudent.xlsx](https://github.com/RVBuckets/Temperature-Sensor/files/2532218/ProposalContentStudent.xlsx)
 
 
 
