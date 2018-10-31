@@ -1,3 +1,5 @@
+# Temperature-Sensor
+
 # WEEK9
 
 Created pcb design as well as schema and exported generated Gerber file to Prototype lab
@@ -53,22 +55,23 @@ Modified the invoice of purchase
 
 # WEEK4
 
-Designed budget and uploaded on github (budget.xlsx)
+Designed budget and uploaded on github https://github.com/RVBuckets/Temperature-Sensor/blob/master/Budget.xlsx
 
 
 # WEEK3
 
-Created schedule and documented it on github (Schedule.mpp)
+Created schedule and documented it on github https://github.com/RVBuckets/Temperature-Sensor/blob/master/Schedule.mpp
+
 
 
 # WEEK2
-Proposal Submission
-[ProposalContentStudent.xlsx]
+Proposal Submission 
+[ProposalContentStudent.xlsx](https://github.com/RVBuckets/Temperature-Sensor/files/2532172/ProposalContentStudent.xlsx)
 
-(https://github.com/RVBuckets/Temperature-Sensor/files/2508016/ProposalContentStudent.xlsx)
 
 
 # WEEK 1
 
 Chose TMP007 Tmperature sensor and reported to professor
+
 
