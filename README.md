@@ -63,11 +63,11 @@ Designed budget and uploaded on github (budget.xlsx)
 Created schedule and documented it on github (Schedule.mpp)
 
 
-# WEEK2
-Proposal Submission
-[ProposalContentStudent.xlsx]
 
-(https://github.com/RVBuckets/Temperature-Sensor/files/2508016/ProposalContentStudent.xlsx)
+# WEEK2
+Proposal Submission 
+[ProposalContentStudent.xlsx](https://github.com/RVBuckets/Temperature-Sensor/files/2532172/ProposalContentStudent.xlsx)
+
 
 
 # WEEK 1
