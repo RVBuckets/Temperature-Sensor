@@ -1,4 +1,10 @@
 # Temperature-Sensor
+# WEEK 10
+
+Recieved pcb from Prototype lab. While receiving pcb, I noticed that there were only 4 input for sensor instead of 6. So later Vlad punctured the board and used jumper wire and sorted the whole circuit.
+![bottom](https://user-images.githubusercontent.com/42980862/48098629-59812480-e1eb-11e8-9fab-fc21235708eb.JPG)
+![top](https://user-images.githubusercontent.com/42980862/48098635-5e45d880-e1eb-11e8-857f-df232c8649d1.JPG)
+![pcb pi](https://user-images.githubusercontent.com/42980862/48098631-5c7c1500-e1eb-11e8-81ec-87bd4f963abf.JPG)
 
 # WEEK9
 
