@@ -3,7 +3,7 @@
 
 # WEEK 11
 
-Tested my Sensor on Sunday for readings where I used iPhone flashlight as well as icebag where I noticed fluctuations in my temperature. On the very next day when I tested my sensor on my rpi again it even failed to show the address. To detect I used DMM for testing my sensor as well as I used my group partners' pcb and rpi which confirmed that my rpi was damaged possibly due to "Disengaing it from rpi before detaching my power supply". I ordered new rpi on Monday and fortunately received on Tuesday (Fedex Standard Overnight) and when I again used my new sensor it works in order.
+Tested my Sensor on Sunday for readings where I used iPhone flashlight as well as icebag where I noticed fluctuations in my temperature. On the very next day when I tested my sensor on my rpi again it even failed to show the address. To detect I used DMM for testing my sensor as well as I used my group partners' pcb and rpi which confirmed that my sensor was damaged possibly due to "Disengaing it from rpi before detaching my power supply". I ordered new rpi on Monday and fortunately received on Tuesday (Fedex Standard Overnight) and when I again used my new sensor it works in order.
 Reading appears to be like:
 Using my iPhone flash light
 
