@@ -1,4 +1,20 @@
 # Temperature-Sensor
+# WEEK 11
+
+Tested my Sensor on Sunday for readings where I used iPhone flashlight as well as icebag where I noticed fluctuations in my temperature. On the very next day when I tested my sensor on my rpi again it even failed to show the address. To detect I used DMM for testing my sensor as well as I used my group partners' pcb and rpi which confirmed that my rpi was damaged possibly due to "Disengaing it from rpi before detaching my power supply". I ordered new rpi on Monday and fortunately received on Tuesday (Fedex Standard Overnight) and when I again used my new sensor it works in order.
+Reading appears to be like:
+
+Using my iPhone flash light
+![hightemp](https://user-images.githubusercontent.com/42980862/48458264-93c26700-e793-11e8-8446-88e88e875470.PNG)
+
+Using icebag
+![lowtemp](https://user-images.githubusercontent.com/42980862/48458269-9ae97500-e793-11e8-8890-4621d2979f91.PNG)
+
+And my proof of purchase for new sensor ordered on Monday!
+![payment](https://user-images.githubusercontent.com/42980862/48458683-5d85e700-e795-11e8-8cfb-3e4049e84ccb.jpg)
+
+
+
 # WEEK 10
 
 Recieved pcb from Prototype lab. While receiving pcb, I noticed that there were only 4 input for sensor instead of 6. In order to testify my files, I even demonstrated my files on online gerber viewer which looked alright (as per VLAD) but for some reason prototype lab computer failed to identify the inputs. Later VLAD punctured 2 more holes on my PCB. 
