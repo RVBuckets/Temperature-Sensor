@@ -6,12 +6,16 @@ Tested my Sensor on Sunday for readings where I used iPhone flashlight as well a
 Reading appears to be like:
 
 Using my iPhone flash light
+
 ![hightemp](https://user-images.githubusercontent.com/42980862/48458264-93c26700-e793-11e8-8446-88e88e875470.PNG)
 
 Using icebag
+
 ![lowtemp](https://user-images.githubusercontent.com/42980862/48458269-9ae97500-e793-11e8-8890-4621d2979f91.PNG)
 
+
 And my proof of purchase for new sensor ordered on Monday!
+
 ![payment](https://user-images.githubusercontent.com/42980862/48458683-5d85e700-e795-11e8-8cfb-3e4049e84ccb.jpg)
 
 
