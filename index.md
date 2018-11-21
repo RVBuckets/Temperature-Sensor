@@ -1,5 +1,14 @@
 # Temperature-Sensor
 
+# WEEK 12
+
+Emailed the Corel Draw files to Prototype Lab after 4 attempts where I discovered mismatch of notches that didn't actually fit the gap. In my case, I have to resize my case in terms of 3 parameters: Height,width and length only due to my pcb unwanted expanded areas.Vlad helped me to measure the size using Vernier Caliper and following are my case packages:
+
+![rpi2case](https://user-images.githubusercontent.com/42980862/48820425-d7344c80-ed22-11e8-8041-aa1a9c327e5a.jpg)
+
+![case2](https://user-images.githubusercontent.com/42980862/48820431-dbf90080-ed22-11e8-8c55-28a2d4d13be1.PNG)
+
+
 
 # WEEK 11
 
