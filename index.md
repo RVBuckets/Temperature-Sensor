@@ -8,7 +8,7 @@ Emailed the Corel Draw files to Prototype Lab after 4 attempts where I discovere
 
 ![case2](https://user-images.githubusercontent.com/42980862/48820431-dbf90080-ed22-11e8-8c55-28a2d4d13be1.PNG)
 
-
+Corel file on my GitHub account is by name: Modified case.cdr
 
 # WEEK 11
 
