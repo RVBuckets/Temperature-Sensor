@@ -2,6 +2,13 @@
 
 # WEEK 12
 
+Case ready!! received on Friday and here is the case outlook:
+
+![thumbnail](https://user-images.githubusercontent.com/42980862/49087350-ba1ce380-f224-11e8-984d-f9a295bf2339.jpg)
+
+![thumbnail 1](https://user-images.githubusercontent.com/42980862/49087395-da4ca280-f224-11e8-8690-fba2ed6fac03.jpg)
+
+
 Emailed the Corel Draw files to Prototype Lab after 4 attempts where I discovered mismatch of notches that didn't actually fit the gap. In my case, I have to resize my case in terms of 3 parameters: Height,width and length only due to my pcb unwanted expanded areas.Vlad helped me to measure the size using Vernier Caliper and following are my case packages:
 
 ![rpi2case](https://user-images.githubusercontent.com/42980862/48820425-d7344c80-ed22-11e8-8041-aa1a9c327e5a.jpg)
