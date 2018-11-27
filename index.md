@@ -1,5 +1,11 @@
 # Temperature-Sensor
 
+# WEEK 13
+
+Presentation Due!  
+[HardwareWeek13.pptx](https://github.com/RVBuckets/Temperature-Sensor/files/2621659/HardwareWeek13.pptx)
+
+
 # WEEK 12
 
 Case ready!! received on Friday and here is the case outlook:
