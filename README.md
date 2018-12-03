@@ -1,7 +1,7 @@
-                                                      Temperature-Sensor
+                                                     Temperature-Sensor
                                                       
                                                       
-# [Intro](README.md/Introduction)
+# Intro
 # Invoice of Materials
 # Time Commitment
 # Parts Assembly
