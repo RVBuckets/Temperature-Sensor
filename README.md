@@ -1,7 +1,7 @@
                                                       Temperature-Sensor
                                                       
                                                       
-# Intro
+# [Intro](README.md/Introduction)
 # Invoice of Materials
 # Time Commitment
 # Parts Assembly
@@ -43,7 +43,7 @@ Second Sensor
 
 
 ![image](https://user-images.githubusercontent.com/42980862/49388670-74fc2400-f6f2-11e8-93a5-1b9dcac88cc5.png)
-
+ 
 
 
 
