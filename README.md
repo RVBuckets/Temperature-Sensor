@@ -1,12 +1,12 @@
                                                      Temperature-Sensor
                                                       
                                                       
-# [Intro
+# Intro
 # Invoice of Materials
 # Time Commitment
 # Parts Assembly
 # PCB Soldering
-# Power Up]
+# Power Up
 
 
 # Introduction
