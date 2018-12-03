@@ -1,12 +1,12 @@
                                                      Temperature-Sensor
                                                       
                                                       
-# [Intro] (README.md/# Introduction)
-# [Invoice of Materials] (README.md/# Introduction)
-# [Time Commitment] (README.md/# Introduction)
-# [Parts Assembly] (README.md/# Introduction)
-# [PCB Soldering] (README.md/# Introduction)
-# [Power Up] (README.md/# Introduction)
+# [Intro
+# Invoice of Materials
+# Time Commitment
+# Parts Assembly
+# PCB Soldering
+# Power Up]
 
 
 # Introduction
