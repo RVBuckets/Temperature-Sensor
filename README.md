@@ -283,18 +283,24 @@ print "Object Temperature in Fahrenheit : %.2f F" %fTemp
 
 `` smbus `` stands for System Management Bus which is a subset of I2C protocol. When writing a driver for an I2C device try to use the SMBus commands if possible as it enables use of device driver on both SMBus and I2C interface.
 
-``` write_i2c_block_data(int addr,char cmd,long vals[])``` purpose of this listing is to block
+For Block Write Transaction ``` write_i2c_block_data(int addr,char cmd,long vals[]) ```
+For Block Read Transaction ``` read_i2c_block_data(int addr,char cmd,long vals[]) ```
+                        
+
+
 
 
 ### Compile the code
 
-To compile the program, issue the command; ``` python Tmp007.py ```
+To compile the program, issue the command ``` python Tmp007.py ```
 
 # Unit Testing
 
 To run the following code on rpi, issue the following command ``` sudo python Tmp007.py ```
 
 ![readings](https://user-images.githubusercontent.com/42980862/49782514-a1143800-fce4-11e8-83d5-db8f6a728b36.PNG)
+
+
 
 
 
