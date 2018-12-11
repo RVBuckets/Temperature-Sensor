@@ -68,7 +68,8 @@ b. Connections:
  
   - Issue the following command: ``` sudo /etc/network/interfaces``` to make changes in wpa_supplicant.conf which looks like:
   
-  ```network={
+  ```
+  network={
 	ssid="myWi-Fi@Humber"
 	key_mgmt=WPA-EAP
 	auth_alg=OPEN
@@ -107,7 +108,8 @@ b. Connections:
     
     ![wifi stat](https://user-images.githubusercontent.com/42980862/49777786-f1cd6600-fccf-11e8-9720-2d31cc633486.PNG)
     
-    b. Enable the following option:  - [x] Allow other network users to connect through this computer's internet connection. And in the dropdown list choose your Ethernet option
+    b. Enable the following option:  
+    - [x] Allow other network users to connect through this computer's internet connection. And in the dropdown list choose your Ethernet option
     
     ![ethrnt](https://user-images.githubusercontent.com/42980862/49778059-445b5200-fcd1-11e8-9e32-a4653de4528f.PNG)
     
