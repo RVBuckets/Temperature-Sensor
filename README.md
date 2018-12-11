@@ -16,7 +16,7 @@
 
   ![tmp007](https://user-images.githubusercontent.com/42980862/49775866-ae6ef980-fcc7-11e8-9eb0-d16f089b680a.jpg)
 
-Source https://cdn-shop.adafruit.com/1200x900/2023-00.jpg 
+Image Source https://cdn-shop.adafruit.com/1200x900/2023-00.jpg 
 
 Tmp007 breakout has a IR sensor which has a capability of measuring temperature of an object without touching it. This thermopile sensor has an internal math engine which does the calculations of temperature. This embedded thermopile generates micro voltage which is a key for calculating temperature.This sensor is useful to calculate average temperature of surroundings. This sensor works with 2.5V to 5V which does not require any logic shifting.
 
@@ -25,7 +25,7 @@ Tmp007 breakout has a IR sensor which has a capability of measuring temperature 
 
 ![rpi3b](https://user-images.githubusercontent.com/42980862/49776194-078b5d00-fcc9-11e8-8d61-f96a17dfd31c.PNG)
 
-Source https://blog.pimoroni.com/content/images/2018/03/pi-3b-plus-small-9.jpg
+Image Source https://blog.pimoroni.com/content/images/2018/03/pi-3b-plus-small-9.jpg
 
 Also known as Rpi 3b+ is the newest as well as fastest pocket sized computer. 
 
@@ -171,7 +171,7 @@ Steps for pinout:
 
 ![gpio](https://user-images.githubusercontent.com/42980862/49779833-f565ea80-fcd9-11e8-99f3-79126350f276.PNG)
 
-Source: https://blog.pimoroni.com/content/images/2018/03/pi-3b-plus-small-9.jpg
+Image Source: https://blog.pimoroni.com/content/images/2018/03/pi-3b-plus-small-9.jpg
 
 
 3) 3V power pin from your Rpi and connect it to breadboard ( pin no.1)
