@@ -7,6 +7,7 @@
  - [Parts Assembly](#Mechanical-Assembly)
  - [PCB Soldering](#PCB-and-Soldering)
  - [Power Up](#power-up)
+ - [Production Testing](#production-testing)
 
 
 # Introduction
@@ -155,9 +156,7 @@ For more details on budget:
 
 # Time Commitment
 
-
-
-![image](https://user-images.githubusercontent.com/42980862/49388670-74fc2400-f6f2-11e8-93a5-1b9dcac88cc5.png)
+Hardware Course is 15 weeks long including the study week.In order to track my progress (including delays) could be found at [Progress Blog](https://rvbuckets.github.io/Temperature-Sensor/). Fortunately I was able to accomplish my Hardware on time including the delays demonstrated on my [schedule](https://github.com/RVBuckets/Temperature-Sensor/blob/master/Schedule.mpp). Time expenditure can be minimized based on materials or resources available to build the hardware.
 
 
 # Mechanical Assembly
@@ -300,6 +299,17 @@ To run the following code on rpi, issue the following command ``` sudo python Tm
 
 ![readings](https://user-images.githubusercontent.com/42980862/49782514-a1143800-fce4-11e8-83d5-db8f6a728b36.PNG)
 
+
+# Production Testing
+
+Production testing is an umbrella term of Power Up, Unit Testing, Performance Testing. Sensor passes through various stages of testing : **First** on breadboard, **Second** while testing on PCB, **third** mounting the sensor as well as PCB on RPI followed by Unit Testing. This project has lead me to understand real meaning of portability as well as real-time process of a device which is easy to carry and easy to demonstrate its working. Key term is the case ( My corel draw files for case [Case File](
+https://github.com/RVBuckets/Temperature-Sensor/blob/master/Modified%20case.cdr)) which protects this device due to its property of being delicate.    
+
+# Final Product
+
+And here is my final product
+
+![capture](https://user-images.githubusercontent.com/42980862/49832241-16731d80-fd64-11e8-88f8-9fb6cb6e9a88.PNG)
 
 
 
