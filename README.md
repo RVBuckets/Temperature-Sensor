@@ -171,7 +171,7 @@ Steps for pinout:
 
 ![gpio](https://user-images.githubusercontent.com/42980862/49779833-f565ea80-fcd9-11e8-99f3-79126350f276.PNG)
 
-Image Source: https://blog.pimoroni.com/content/images/2018/03/pi-3b-plus-small-9.jpg
+Image Source: https://www.raspberrypi-spy.co.uk/wp-content/uploads/2014/07/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-702x336.png
 
 
 3) 3V power pin from your Rpi and connect it to breadboard ( pin no.1)
