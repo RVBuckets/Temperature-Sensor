@@ -201,9 +201,12 @@ For further construction of PCB, **a 5 pin header for required for Rpi and a 8 p
 ### 5 Steps for Soldering:
 1. Heat up your iron (600-700 degrees F or 315-370 degrees C)
 
-![a](https://user-images.githubusercontent.com/42980862/49781457-cb63f680-fce0-11e8-82eb-613669997e40.PNG)
+![374-100_alt_1](https://user-images.githubusercontent.com/42980862/49834780-41ad3b00-fd6b-11e8-8019-15799e48ca91.jpg)
 
-Image Source : https://images-na.ssl-images-amazon.com/images/I/71ptAjBPYzL._SL1500_.jpg
+
+
+Image Source : https://user-images.githubusercontent.com/42980862/49834780-41ad3b00-fd6b-11e8-8019-15799e48ca91.jpg
+
 
 2. Make sure connection are mechanically stable using helping hands to keep parts steady.
 
@@ -211,11 +214,11 @@ Image Source : https://images-na.ssl-images-amazon.com/images/I/71ptAjBPYzL._SL1
 
 3. Clean iron that builds oxide layer, which inhibits heat transfer and solder adhesion using sponge wire.
 
-![image](https://user-images.githubusercontent.com/42980862/49781575-43cab780-fce1-11e8-95ad-500c5b4705eb.png)
+
 
 4. Apply heat and solder (soldering time sometimes varies)
 
-![c](https://user-images.githubusercontent.com/42980862/49781732-dd926480-fce1-11e8-9c6f-daf2468aa2b8.PNG)
+
 
 5. Inspect the join ( Smooth and shiny surface can be observed using a microscope)
 
