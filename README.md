@@ -2,7 +2,7 @@
                                                       
                                                       
  # [Intro](#Introduction)
- # [Invoice of Materials](#invoice-of-materials)
+ # [Invoice of Materials](#Invoice-of-Materials)
  # [Time Commitment](#time-commitment)
  # [Parts Assembly](#parts-assembly)
  # [PCB Soldering](#pcb-soldering)
