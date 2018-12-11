@@ -109,7 +109,8 @@ b. Connections:
     ![wifi stat](https://user-images.githubusercontent.com/42980862/49777786-f1cd6600-fccf-11e8-9720-2d31cc633486.PNG)
     
     b. Enable the following option:  
-    - [x] Allow other network users to connect through this computer's internet connection. And in the dropdown list choose your Ethernet option
+    - [x] Allow other network users to connect through this computer's internet connection. 
+    And in the dropdown list choose your Ethernet option
     
     ![ethrnt](https://user-images.githubusercontent.com/42980862/49778059-445b5200-fcd1-11e8-9e32-a4653de4528f.PNG)
     
@@ -131,21 +132,25 @@ b. Connections:
 
 # Invoice of Materials
 
-Purchase of raspberry pi 3b+
+### Materias required:
 
-![image](https://user-images.githubusercontent.com/42980862/49388496-0fa83300-f6f2-11e8-95a2-be37b8899de8.png)
+1. Raspberry Pi 3b+
+2. USB to ethernet Connector (Owned)
+3. Tmp007 Sensor 
+4. Wire Cutter, Pliers, Safety Glass, Jumper Wire, Breadboard
 
+Summary of items purchased
 
-First Sensor
+| Item Name | Purchased From | Items in number | Item Price (All price including tax and shipping) | 
+|  --- | --- | --- | --- |
+| Raspberry Pi 3b+ | SparkFun | 1 | $89.95 |
+| Tmp007 Sensor (old/Damaged) | Adafruit | 1 | $36.14 |
+| Tmp007 Sensor (New) | Adafruit | 1 | $42.57 |
 
+Total Cost of hardware bought : $ 168.66
 
-![image](https://user-images.githubusercontent.com/42980862/49388602-45e5b280-f6f2-11e8-828f-662df6308c8c.png)
-
-
-Second Sensor
-
-
-![image](https://user-images.githubusercontent.com/42980862/49388571-35cdd300-f6f2-11e8-9137-047c14d6517d.png)
+For more details on budget: 
+[Budget](https://github.com/RVBuckets/Temperature-Sensor/blob/master/Budget.xlsx)
 
 
 # Time Commitment
@@ -153,7 +158,80 @@ Second Sensor
 
 
 ![image](https://user-images.githubusercontent.com/42980862/49388670-74fc2400-f6f2-11e8-93a5-1b9dcac88cc5.png)
+
+
+# Mechanical Assembly
+
+As per adafruit documentation,Tmp007 sensor comes with 0x40 address. This address can be changed to 0x47 by:
+
+
+Steps for pinout:
+
+1) Soldering the sensor  (**NOT WITHOUT SAFETY GLASS**)
+
+
+![solder](https://user-images.githubusercontent.com/42980862/49779644-22fe6400-fcd9-11e8-8ebf-55a8b3474cec.PNG)
+
+
+2) Follow the RPI Header reference for your pinout to breadboard 
+
+
+
+![gpio](https://user-images.githubusercontent.com/42980862/49779833-f565ea80-fcd9-11e8-99f3-79126350f276.PNG)
+
+
+
+3) 3V power pin from your Rpi and connect it to breadboard ( pin no.1)
+
+4) Connect VCC to 3V power supply and GND to common ground ( pin no.9 )
+
+5) Connect SCL to I2C clock SCL pin on your RPi( pin no.5 )
+
+6) Connect SDA to I2C clock SDA pin on your RPI ( pin no.3 )
+
+7) Now connect AD0 --> SCL and AD1 --> Vcc
+
+![bboard2](https://user-images.githubusercontent.com/42980862/47366599-074ce900-d6ac-11e8-8676-103b052c9223.PNG)
  
+8) For detecting the target address of sensor on rpi could be performed by issuing  ``` sudo i2cdetect -y 1``` 
+
+![address0x47](https://user-images.githubusercontent.com/42980862/49780421-74f4b900-fcdc-11e8-8123-e50d4078f324.PNG)
+
+# PCB/Soldering
+
+[Fritizing application](http://fritzing.org/download/) is a very useful tool for composing the PCB which later generates Gerber File that has 9 listing files with top as well bottom dimensions of PCB. 
+
+![pcb](https://user-images.githubusercontent.com/42980862/49780661-84c0cd00-fcdd-11e8-9e5e-e9e8104e7acf.PNG)
+
+For further construction of PCB, **a 5 pin header for required for Rpi and a 8 pin header is required for mounting Sensor.**
+ 
+### 5 Steps for Soldering:
+1. Heat up your iron (600-700 degrees F or 315-370 degrees C)
+
+![a](https://user-images.githubusercontent.com/42980862/49781457-cb63f680-fce0-11e8-82eb-613669997e40.PNG)
+
+2. Make sure connection are mechanically stable using helping hands to keep parts steady.
+
+![b](https://user-images.githubusercontent.com/42980862/49781552-2b5a9d00-fce1-11e8-82dd-deca47e9e57e.PNG)
+
+3. Clean iron that builds oxide layer, which inhibits heat transfer and solder adhesion using sponge wire.
+
+![image](https://user-images.githubusercontent.com/42980862/49781575-43cab780-fce1-11e8-95ad-500c5b4705eb.png)
+
+4. Apply heat and solder (soldering time sometimes varies)
+
+![c](https://user-images.githubusercontent.com/42980862/49781732-dd926480-fce1-11e8-9c6f-daf2468aa2b8.PNG)
+
+5. Inspect the join ( Smooth and shiny surface can be observed using a microscope)
+
+### Following is the picture of my PCB soldered from 
+
+![48098635-5e45d880-e1eb-11e8-857f-df232c8649d1](https://user-images.githubusercontent.com/42980862/49781944-850f9700-fce2-11e8-80d7-34072f034570.JPG)
+
+
+# Power Up
+
+# Unit Testing
 
 
 
