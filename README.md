@@ -224,14 +224,60 @@ For further construction of PCB, **a 5 pin header for required for Rpi and a 8 p
 
 5. Inspect the join ( Smooth and shiny surface can be observed using a microscope)
 
-### Following is the picture of my PCB soldered from 
+### Following is my PCB soldered 
 
 ![48098635-5e45d880-e1eb-11e8-857f-df232c8649d1](https://user-images.githubusercontent.com/42980862/49781944-850f9700-fce2-11e8-80d7-34072f034570.JPG)
 
 
 # Power Up
 
+So far system was able to detect the revised address different from default address. The main purpose of Power up is to display readings just like a product ready for functioning. At this time, my sensor should able to detect the surrounding temperature explaining the real concept of real-time process. 
+
+Following is the program listing of my sensor which s written in python.
+
+```
+import smbus
+import time
+
+# Get I2C bus
+bus = smbus.SMBus(1)
+
+# TMP007 address, 0x40(64)
+# Select configuration register, 0x02(02)
+#		0x1540(5440)	Continuous Conversion mode, Comparator mode
+data = [0x1540]
+bus.write_i2c_block_data(0x47, 0x02, data)
+
+time.sleep(0.5)
+
+# TMP007 address, 0x40(64)
+# Read data back from 0x03(03), 2 bytes
+# cTemp MSB, cTemp LSB
+data = bus.read_i2c_block_data(0x47, 0x03, 2)
+
+# Convert the data to 14-bits
+cTemp = ((data[0] * 256 + (data[1] & 0xFC)) / 4)
+if cTemp > 8191 :
+	cTemp -= 16384
+cTemp = cTemp * 0.03125
+fTemp = cTemp * 1.8 + 32
+
+# Output data to screen
+print "Object Temperature in Celsius : %.2f C" %cTemp
+print "Object Temperature in Fahrenheit : %.2f F" %fTemp
+
+```
+### Understanding the Program Listing
+
 # Unit Testing
+
+To run the following code on rpi, issue the following command ``` sudo python Tmp007.py ```
+
+![readings](https://user-images.githubusercontent.com/42980862/49782514-a1143800-fce4-11e8-83d5-db8f6a728b36.PNG)
+
+
+
+
 
 
 
