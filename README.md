@@ -233,6 +233,18 @@ For further construction of PCB, **a 5 pin header for required for Rpi and a 8 p
 
 So far system was able to detect the revised address different from default address. The main purpose of Power up is to display readings just like a product ready for functioning. At this time, my sensor should able to detect the surrounding temperature explaining the real concept of real-time process. 
 
+### Steps before running the program:
+
+- First, Make sure to install all the libraries or dependencies required by running the following commands:
+
+```
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-smbus
+```
+- Now its time to install the Adafruit_Blinka library provided by Adafruit.This step is prerequsite for enabling I2C interface on the platform we are using.
+
+``` sudo pip3 install adafruit-circuitpython-tmp007 ```
+
 Following is the program listing of my sensor which s written in python.
 
 ```
@@ -268,6 +280,15 @@ print "Object Temperature in Fahrenheit : %.2f F" %fTemp
 
 ```
 ### Understanding the Program Listing
+
+`` smbus `` stands for System Management Bus which is a subset of I2C protocol. When writing a driver for an I2C device try to use the SMBus commands if possible as it enables use of device driver on both SMBus and I2C interface.
+
+``` write_i2c_block_data(int addr,char cmd,long vals[])``` purpose of this listing is to block
+
+
+### Compile the code
+
+To compile the program, issue the command; ``` python Tmp007.py ```
 
 # Unit Testing
 
