@@ -5,7 +5,7 @@
  - [Invoice of Materials](#Invoice-of-Materials)
  - [Time Commitment](#time-commitment)
  - [Parts Assembly](#Mechanical-Assembly)
- - [PCB Soldering](#PCB/Soldering)
+ - [PCB Soldering](#PCB-and-Soldering)
  - [Power Up](#power-up)
 
 
@@ -197,7 +197,7 @@ Steps for pinout:
 
 ![address0x47](https://user-images.githubusercontent.com/42980862/49780421-74f4b900-fcdc-11e8-8123-e50d4078f324.PNG)
 
-# PCB/Soldering
+# PCB and Soldering
 
 [Fritizing application](http://fritzing.org/download/) is a very useful tool for composing the PCB which later generates Gerber File that has 9 listing files with top as well bottom dimensions of PCB. 
 
