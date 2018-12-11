@@ -16,6 +16,7 @@
 
   ![tmp007](https://user-images.githubusercontent.com/42980862/49775866-ae6ef980-fcc7-11e8-9eb0-d16f089b680a.jpg)
 
+Source https://cdn-shop.adafruit.com/1200x900/2023-00.jpg 
 
 Tmp007 breakout has a IR sensor which has a capability of measuring temperature of an object without touching it. This thermopile sensor has an internal math engine which does the calculations of temperature. This embedded thermopile generates micro voltage which is a key for calculating temperature.This sensor is useful to calculate average temperature of surroundings. This sensor works with 2.5V to 5V which does not require any logic shifting.
 
@@ -24,7 +25,7 @@ Tmp007 breakout has a IR sensor which has a capability of measuring temperature 
 
 ![rpi3b](https://user-images.githubusercontent.com/42980862/49776194-078b5d00-fcc9-11e8-8d61-f96a17dfd31c.PNG)
 
-
+Source https://blog.pimoroni.com/content/images/2018/03/pi-3b-plus-small-9.jpg
 
 Also known as Rpi 3b+ is the newest as well as fastest pocket sized computer. 
 
@@ -121,19 +122,11 @@ b. Connections:
     
     ![image](https://user-images.githubusercontent.com/42980862/49778147-ab790680-fcd1-11e8-9469-78ef9798cf00.png)
     
-    
-
-
-    
-
-
-
-
 
 
 # Invoice of Materials
 
-### Materias required:
+### Material required:
 
 1. Raspberry Pi 3b+
 2. USB to ethernet Connector (Owned)
@@ -178,6 +171,7 @@ Steps for pinout:
 
 ![gpio](https://user-images.githubusercontent.com/42980862/49779833-f565ea80-fcd9-11e8-99f3-79126350f276.PNG)
 
+Source: https://blog.pimoroni.com/content/images/2018/03/pi-3b-plus-small-9.jpg
 
 
 3) 3V power pin from your Rpi and connect it to breadboard ( pin no.1)
@@ -208,6 +202,8 @@ For further construction of PCB, **a 5 pin header for required for Rpi and a 8 p
 1. Heat up your iron (600-700 degrees F or 315-370 degrees C)
 
 ![a](https://user-images.githubusercontent.com/42980862/49781457-cb63f680-fce0-11e8-82eb-613669997e40.PNG)
+
+Image Source : https://images-na.ssl-images-amazon.com/images/I/71ptAjBPYzL._SL1500_.jpg
 
 2. Make sure connection are mechanically stable using helping hands to keep parts steady.
 
