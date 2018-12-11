@@ -4,8 +4,8 @@
  - [Intro](#Introduction)
  - [Invoice of Materials](#Invoice-of-Materials)
  - [Time Commitment](#time-commitment)
- - [Parts Assembly](#parts-assembly)
- - [PCB Soldering](#pcb-soldering)
+ - [Parts Assembly](#Mechanical-Assembly)
+ - [PCB Soldering](#PCB/Soldering)
  - [Power Up](#power-up)
 
 
