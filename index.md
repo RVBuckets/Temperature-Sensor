@@ -1,4 +1,11 @@
 # Temperature-Sensor
+# WEEK 15
+
+Updated README.md for the final week 
+
+# WEEK 14
+
+Presentation Week Continues!
 
 # WEEK 13
 
